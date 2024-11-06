@@ -1,0 +1,55 @@
+.enquiry {
+  width: 100%;
+  text-align: center;
+}
+
+.enquiry h1 {
+  font-size: 2.5rem;
+  color: darkblue;
+}
+
+.enquiry form {
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid darkblue;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.enquiry form blockquote {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.enquiry form blockquote input,
+.enquiry form blockquote select,
+.enquiry form blockquote textarea {
+  padding: 0.5rem;
+  border: 1px solid darkblue;
+  border-radius: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.enquiry form button {
+  border: 1px solid darkblue;
+  background-color: darkblue;
+  color: white;
+  padding: 0.5rem 2.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 1rem auto;
+}
+
+.enquiry form button:hover {
+  background-color: white;
+  color: darkblue;
+}

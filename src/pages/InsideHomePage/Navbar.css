@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+}
+.navbar img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.navbar aside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  gap: 1.5rem;
+}
+
+.navbar aside h3 {
+  cursor: pointer;
+}
+
+.navbar aside h3:hover {
+  text-decoration: underline;
+}
+
+.navbar aside i {
+  font-size: 1.3rem;
+  margin-left: 3rem;
+}

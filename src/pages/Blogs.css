@@ -1,0 +1,36 @@
+.blogs {
+  width: 70%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.blogs h3 {
+  margin-top: 1rem;
+}
+
+.blogs h1 {
+  font-size: 2.5rem;
+}
+
+.blogs ol {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.blogs ol li ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.blogs ol li ul li {
+  list-style: disc;
+}
+
+.blogs strong {
+  font-weight: 700;
+}
