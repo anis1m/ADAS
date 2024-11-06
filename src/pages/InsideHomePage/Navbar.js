@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Navbar.css";
 import logo from "../../images/logo.png";
 import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const nav = useNavigate();
+  const menuref = useRef();
   return (
     <>
       <nav className="navbar">
@@ -18,7 +19,7 @@ function Navbar() {
             });
           }}
         />
-        <aside>
+        <aside ref={menuref}>
           <h3>Home</h3>
           <h3>Our Courses</h3>
           <h3>Team</h3>
@@ -29,8 +30,20 @@ function Navbar() {
           <h3 onClick={() => nav("/enquiry")}>Enquiry</h3>
           <i class="fa-solid fa-magnifying-glass"></i>
         </aside>
+        <button
+          id="hamberger_menu"
+          onClick={() => {
+            if (menuref.current.style.display === "block") {
+              menuref.current.style.display = "none";
+            } else {
+              menuref.current.style.display = "block";
+            }
+          }}
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </nav>
-      <div style={{ width: "100%", height: "150px" }}></div>
+      <div className="belownavbar"></div>
     </>
   );
 }

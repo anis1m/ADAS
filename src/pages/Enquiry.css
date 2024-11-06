@@ -53,3 +53,10 @@
   background-color: white;
   color: darkblue;
 }
+
+@media (max-width: 480px) {
+  .enquiry form {
+    width: 95%;
+    padding: 1rem;
+  }
+}

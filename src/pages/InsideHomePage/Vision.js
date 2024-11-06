@@ -31,7 +31,7 @@ function Vision() {
       <h2>
         <i class="fa-solid fa-suitcase"></i> Our Vision
       </h2>
-      <h1 style={{ fontSize: "3rem" }}>Why Choose Us?</h1>
+      <h1>Why Choose Us?</h1>
       <b style={{ fontSize: "1.1rem", textAlign: "center" }}>
         At ADAS, we differentiate ourselves through our unique blend of
         expertise, experience, and innovative training approaches. Here are just

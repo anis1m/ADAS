@@ -8,6 +8,11 @@
   transform: translateX(1920px);
 }
 
+.vision h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
 .vision div {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -37,4 +42,24 @@
 .vision div aside:hover {
   background-color: gray;
   color: white;
+}
+
+@media (max-width: 480px) {
+  .vision {
+    width: 90%;
+    transform: none;
+  }
+
+  .vision div {
+    grid-template-columns: 1fr;
+  }
+
+  .vision div aside {
+    transform: none;
+  }
+
+  .vision h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
 }

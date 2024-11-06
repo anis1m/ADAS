@@ -34,3 +34,14 @@
 .blogs strong {
   font-weight: 700;
 }
+
+@media (max-width: 480px) {
+  .blogs {
+    width: 95%;
+  }
+
+  .blogs h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}

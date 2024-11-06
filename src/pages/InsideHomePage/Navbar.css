@@ -33,3 +33,58 @@
   font-size: 1.3rem;
   margin-left: 3rem;
 }
+
+.belownavbar {
+  width: 100%;
+  height: 150px;
+}
+
+#hamberger_menu {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0 2%;
+  }
+  .navbar img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar aside {
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    right: 0.5rem;
+    border: 1px solid gray;
+    background-color: white;
+    z-index: 2;
+    padding: 1rem;
+  }
+
+  .navbar aside h3 {
+    border-bottom: 1px solid lightgray;
+  }
+
+  .navbar aside i {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  .belownavbar {
+    height: 70px;
+  }
+
+  #hamberger_menu {
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  #hamberger_menu i {
+    font-size: 2rem;
+  }
+}

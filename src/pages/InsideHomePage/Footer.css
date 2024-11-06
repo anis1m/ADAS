@@ -41,3 +41,15 @@
   background-color: whitesmoke;
   border-top: 1px solid lightgray;
 }
+
+@media (max-width: 480px) {
+  .footer {
+    grid-template-columns: 1fr;
+    padding: 1rem 5%;
+    row-gap: 1rem;
+  }
+
+  .belowfooter {
+    padding: 0.5rem 5%;
+  }
+}

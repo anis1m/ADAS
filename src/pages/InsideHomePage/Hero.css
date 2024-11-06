@@ -12,7 +12,7 @@
 .hero figure::before {
   content: "";
   width: 100%;
-  height: 750px;
+  height: 85vh;
   position: absolute;
   left: 0;
   top: 0;
@@ -21,7 +21,7 @@
 }
 .hero figure img {
   width: 100%;
-  height: 750px;
+  height: 85vh;
 }
 
 .hero blockquote {
@@ -68,5 +68,41 @@
   .hero blockquote {
     width: 80%;
     left: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero figure img {
+    height: 30vh;
+  }
+
+  .hero figure::before {
+    height: 30vh;
+  }
+
+  .hero blockquote h1 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .hero blockquote h2 {
+    font-size: 1rem;
+  }
+
+  .hero blockquote b {
+    font-size: 1rem;
+  }
+
+  .hero blockquote {
+    width: 95%;
+    gap: 3px;
+    top: 0;
+    left: 2.5%;
+    right: 2.5%;
+  }
+
+  .hero blockquote button {
+    padding: 3px 2.5rem;
+    font-size: 1rem;
   }
 }

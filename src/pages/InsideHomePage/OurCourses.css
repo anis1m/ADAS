@@ -77,3 +77,14 @@
   color: white;
   background-color: darkblue;
 }
+
+@media (max-width: 480px) {
+  .our-courses div {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .our-courses div aside {
+    transform: none;
+  }
+}

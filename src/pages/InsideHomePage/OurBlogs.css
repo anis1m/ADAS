@@ -4,11 +4,12 @@
 }
 
 .our-blogs mark {
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   background-color: white;
-  margin-left: 45%;
 }
 
 .our-blogs mark h1 {
@@ -26,6 +27,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 1rem;
   margin: 1rem 0;
+  row-gap: 1rem;
 }
 
 .our-blogs div aside {
@@ -51,4 +53,17 @@
 
 .our-blogs div aside button:hover {
   background-color: whitesmoke;
+}
+
+@media (max-width: 480px) {
+  .our-blogs {
+    width: 90%;
+  }
+  .our-blogs div {
+    grid-template-columns: 1fr;
+  }
+
+  .our-blogs div aside {
+    transform: none;
+  }
 }

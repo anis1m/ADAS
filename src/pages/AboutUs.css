@@ -45,3 +45,12 @@
 .contactUsinAboutUs li i {
   font-size: 1.5rem;
 }
+
+@media (max-width: 480px) {
+  .aboutUs div {
+    width: 95%;
+  }
+  .aboutUs div h1 {
+    font-size: 1.5rem;
+  }
+}
