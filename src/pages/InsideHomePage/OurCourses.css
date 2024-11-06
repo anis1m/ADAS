@@ -1,6 +1,7 @@
 .our-courses {
   width: 100%;
   text-align: center;
+  overflow:hidden;
 }
 
 .our-courses h1 {
@@ -15,6 +16,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 1rem;
   row-gap: 1rem;
+  
 }
 
 .our-courses div aside {
