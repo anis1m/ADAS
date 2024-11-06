@@ -25,13 +25,14 @@
 }
 
 .hero blockquote {
-  width: 60%;
+  width: 100%;
   position: absolute;
-  top: 10%;
-  left: 20%;
+  top: 0;
+  bottom:0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   z-index: 3;
 }
