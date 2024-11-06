@@ -27,6 +27,7 @@ function Vision() {
     };
   }, []);
   return (
+  <section style={{width:"100%", overflow:"hidden"}}>
     <section className="vision" ref={visionRef}>
       <h2>
         <i class="fa-solid fa-suitcase"></i> Our Vision
@@ -113,6 +114,7 @@ function Vision() {
         </aside>
       </div>
     </section>
+  </section>
   );
 }
 
