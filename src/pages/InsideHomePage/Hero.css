@@ -65,24 +65,19 @@
   cursor: pointer;
 }
 
-@media (max-width: 1368px) {
-  .hero blockquote {
-    width: 80%;
-    left: 10%;
-  }
-}
+
 
 @media (max-width: 480px) {
   .hero figure img {
-    height: 30vh;
+    height: 35vh;
   }
 
   .hero figure::before {
-    height: 30vh;
+    height: 35vh;
   }
 
   .hero blockquote h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
   }
 
@@ -95,11 +90,8 @@
   }
 
   .hero blockquote {
-    width: 95%;
     gap: 3px;
-    top: 0;
-    left: 2.5%;
-    right: 2.5%;
+    
   }
 
   .hero blockquote button {
