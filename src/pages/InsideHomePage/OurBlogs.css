@@ -63,6 +63,7 @@
   }
   .our-blogs div {
     grid-template-columns: 1fr;
+    margin:1rem 0;
   }
 
   .our-blogs div aside {
