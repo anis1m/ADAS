@@ -5,6 +5,10 @@ function Vision({hv}) {
   const visionRef = useRef(null);
   const skewref = useRef([]);
   const vh= useRef();
+  const combinedRef = (element) => {
+    visionRef.current = element;
+    vh.current = element;
+  };
 
   useEffect(()=>{
     if(vh.current){
@@ -12,6 +16,8 @@ function Vision({hv}) {
     }
     
   },[]);
+
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,7 +42,7 @@ function Vision({hv}) {
   }, []);
   return (
   <section style={{width:"100%", overflow:"hidden"}}>
-    <section className="vision" ref={visionRef, vh} >
+    <section className="vision" ref={combinedRef} >
       <h2>
         <i class="fa-solid fa-suitcase"></i> Our Vision
       </h2>
