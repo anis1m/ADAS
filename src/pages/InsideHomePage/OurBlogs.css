@@ -1,5 +1,6 @@
 .our-blogs {
   width: 72%;
+  height:fit-content;
   margin: 2rem auto;
   overflow:hidden;
 }
