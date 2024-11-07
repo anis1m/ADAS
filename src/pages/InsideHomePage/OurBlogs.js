@@ -7,7 +7,6 @@ function OurBlogs({hb, vh}) {
   const blogref = useRef([]);
   const [blogsdata, setblogsdata] = useState([]);
   const bh= useRef();
-  console.log(vh);
 
   useEffect(()=>{
     if(bh.current){
@@ -17,7 +16,7 @@ function OurBlogs({hb, vh}) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= vh+100) {
+      if (window.scrollY >= vh+700) {
         /*if (visionRef.current) {
           visionRef.current.style.transform = "translateX(0px)";
           visionRef.current.style.transition = "transform 1s ease";
