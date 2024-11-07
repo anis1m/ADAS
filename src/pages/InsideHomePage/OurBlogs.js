@@ -9,7 +9,7 @@ function OurBlogs() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= 1500) {
+      if (window.scrollY >= 1800) {
         /*if (visionRef.current) {
           visionRef.current.style.transform = "translateX(0px)";
           visionRef.current.style.transition = "transform 1s ease";
