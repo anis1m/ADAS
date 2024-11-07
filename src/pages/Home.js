@@ -11,14 +11,14 @@ import LocateUs from "./InsideHomePage/LocateUs";
 function Home() {
 
   const [blogsheight, setblogsheight]= useState(0);
-  const [coursesheight, setcoursesheight]= useState(0);
+  const [visionheight, setvisionheight]= useState(0);
   return (
     <>
       <Navbar />
       <Hero />
-      <Vision />
+      <Vision vh={visionheight} hv={setvisionheight}/>
       <OurBlogs bh={blogsheight} hb={setblogsheight} />
-      <OurCourses ch={coursesheight} hc={setcoursesheight}/>
+      <OurCourses />
       <LocateUs />
       <Footer />
     </>
