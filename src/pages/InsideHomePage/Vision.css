@@ -1,6 +1,7 @@
 .vision {
   display: flex;
   width: 70%;
+  height:fit-content;
   margin: 3rem auto;
   flex-direction: column;
   align-items: center;
