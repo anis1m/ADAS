@@ -117,8 +117,8 @@ function Vision() {
         </aside>
         
       </div>
-      <aside style={{width:"100%"}}>
-          <h2>Join Us in Shaping the Future</h2>
+      <aside style={{width:"100%", display:"flex",flexDirection:"column", gap:"1rem"}}>
+          <h2 style={{fontSize:"2rem"}}>Join Us in Shaping the Future</h2>
           <ul>
             <li>At Auto Intellect, we are not just bridging the gap between education and industry; we are redefining it.</li>
             <li>Our mission is to connect, learn, and innovate, ensuring you are prepared for the workforce and poised to drive industry trends forward.</li>
