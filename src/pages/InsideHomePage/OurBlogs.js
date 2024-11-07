@@ -7,6 +7,7 @@ function OurBlogs({hb, vh}) {
   const blogref = useRef([]);
   const [blogsdata, setblogsdata] = useState([]);
   const bh= useRef();
+  console.log(vh);
 
   useEffect(()=>{
     if(bh.current){
