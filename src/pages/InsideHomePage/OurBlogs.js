@@ -2,14 +2,21 @@ import React, { useEffect, useRef, useState } from "react";
 import "./OurBlogs.css";
 import { useNavigate } from "react-router-dom";
 
-function OurBlogs() {
+function OurBlogs({hb, vh}) {
   const nav = useNavigate();
   const blogref = useRef([]);
   const [blogsdata, setblogsdata] = useState([]);
+  const bh= useRef();
+
+  useEffect(()=>{
+    if(bh.current){
+      hb(bh.current.scrollHeight);
+    }
+  },[])
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= 2200) {
+      if (window.scrollY >= vh+100) {
         /*if (visionRef.current) {
           visionRef.current.style.transform = "translateX(0px)";
           visionRef.current.style.transition = "transform 1s ease";
@@ -50,7 +57,7 @@ function OurBlogs() {
   }, []);
   return (
     <>
-      <section class="our-blogs">
+      <section class="our-blogs" ref={bh}>
         <mark>
           <i class="fa-solid fa-blog"></i>
           <h1>Our Blogs</h1>
