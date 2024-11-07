@@ -2,11 +2,11 @@ import React, { useRef, useEffect } from "react";
 import "./OurCourses.css";
 import tagimg from "../../images/pngtree-blue-promotion-label-price-tag-png-image_4518487.png";
 
-function OurCourses() {
+function OurCourses({bh,vh}) {
   const coursesref = useRef([]);
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= 2500) {
+      if (window.scrollY >= bh+vh+150) {
         if (coursesref.current) {
           for (let i = 0; i < coursesref.current.length; i++) {
             coursesref.current[i].style.transform = "skew(0deg)";
