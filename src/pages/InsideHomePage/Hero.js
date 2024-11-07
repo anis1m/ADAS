@@ -9,7 +9,7 @@ function Hero() {
         <img src={heroimage} />
       </figure>
       <blockquote>
-        <h2>Automotive Embedded System</h2>
+        <h2>Auto Intellect</h2>
         <h1>
           Our mission is to implement Functional Safety in Advanced Driver
           Assistance Systems (ADAS)
