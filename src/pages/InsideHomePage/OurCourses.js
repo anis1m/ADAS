@@ -6,7 +6,7 @@ function OurCourses() {
   const coursesref = useRef([]);
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= 1800) {
+      if (window.scrollY >= 2100) {
         if (coursesref.current) {
           for (let i = 0; i < coursesref.current.length; i++) {
             coursesref.current[i].style.transform = "skew(0deg)";
