@@ -51,7 +51,7 @@ function Footer() {
         </aside>
       </footer>
       <footer className="belowfooter">
-        <h4>Copyright &copy; 2024 ADAS Corporation. All Rights Reserved</h4>
+        <h4>Copyright &copy; 2024 Auto Intellect. All Rights Reserved</h4>
       </footer>
     </>
   );
