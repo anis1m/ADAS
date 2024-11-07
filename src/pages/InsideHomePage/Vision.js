@@ -119,7 +119,7 @@ function Vision() {
       </div>
       <aside style={{width:"100%", margin:"1rem 0"}}>
           <h2 style={{fontSize:"2rem"}}>Join Us in Shaping the Future</h2>
-          <ul style={{display:"flex",flexDirection:"column", gap:"0.5rem", marginTop:"1rem"}}>
+          <ul style={{display:"flex",flexDirection:"column", gap:"1rem", marginTop:"1rem"}}>
             <li>At Auto Intellect, we are not just bridging the gap between education and industry; we are redefining it.</li>
             <li>Our mission is to connect, learn, and innovate, ensuring you are prepared for the workforce and poised to drive industry trends forward.</li>
             <li>Join us in our vision to transform the future of automotive innovation through tailored learning experiences. </li>
