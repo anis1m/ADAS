@@ -16,7 +16,7 @@
 .vision div {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  row-gap: 1rem;
   column-gap: 1rem;
   margin: 2rem 0;
 }
@@ -53,6 +53,7 @@
 
   .vision div {
     grid-template-columns: 1fr;
+    margin:1rem 0;
   }
 
   .vision div aside {
