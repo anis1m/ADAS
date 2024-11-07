@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Home.css";
 import Navbar from "./InsideHomePage/Navbar";
 import Hero from "./InsideHomePage/Hero";
@@ -9,13 +9,16 @@ import OurCourses from "./InsideHomePage/OurCourses";
 import LocateUs from "./InsideHomePage/LocateUs";
 
 function Home() {
+
+  const [blogsheight, setblogsheight]= useState(0);
+  const [coursesheight, setcoursesheight]= useState(0);
   return (
     <>
       <Navbar />
       <Hero />
       <Vision />
-      <OurBlogs />
-      <OurCourses />
+      <OurBlogs bh={blogsheight} hb={setblogsheight} />
+      <OurCourses ch={coursesheight} hc={setcoursesheight}/>
       <LocateUs />
       <Footer />
     </>
