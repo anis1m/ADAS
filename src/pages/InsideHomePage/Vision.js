@@ -43,7 +43,7 @@ function Vision() {
             <li>
               Our meticulously designed curriculum covers every essential aspect of automotive cybersecurity and functional safety.
             </li>
-            <li>From theoretical foundations to practical applications, we equip our learners to tackle the industry’s most pressing challenges./li>
+            <li>From theoretical foundations to practical applications, we equip our learners to tackle the industry’s most pressing challenges.</li>
             <li>
               Our specialized modules explore cutting-edge topics like V2X communication, autonomous vehicles, and AI integration, ensuring you stay ahead of the curve.
             </li>
