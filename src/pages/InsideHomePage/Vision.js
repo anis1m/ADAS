@@ -33,7 +33,7 @@ function Vision() {
         <i class="fa-solid fa-suitcase"></i> Our Vision
       </h2>
       <h1>Why Choose Auto Intellect?</h1>
-      <p style={{ fontSize: "1.1rem", textAlign: "center" }}>
+      <p style={{ fontSize: "1.1rem" }}>
         In an increasingly specialized world, niche learning has never been more critical. At Auto Intellect, we lead this transformation, empowering professionals in the automotive cybersecurity and functional safety sectors. Here’s why choosing us is the best decision for your career and your organization:
       </p>
       <div>
