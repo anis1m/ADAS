@@ -8,9 +8,9 @@ function AboutUs() {
       <Navbar />
       <section className="aboutUs">
         <div>
-          <h1>Welcome to ADAS</h1>
+          <h1>Welcome to Auto Intellect</h1>
           <p>
-            At ADAS, we empower professionals to excel in the rapidly evolving
+            At Auto Intellect, we empower professionals to excel in the rapidly evolving
             corporate landscape. Our cutting-edge training programs are designed
             to equip individuals with the knowledge, skills, and expertise
             needed to thrive in today's competitive environment.
@@ -51,7 +51,7 @@ function AboutUs() {
           </ul>
           <h2>Get in Touch</h2>
           <p>
-            Contact us to discover how [Training Center Name] can help you
+            Contact us to discover how Auto Intellect can help you
             achieve your professional goals.
           </p>
           <ul className="contactUsinAboutUs">
