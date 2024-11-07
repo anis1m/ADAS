@@ -117,7 +117,7 @@ function Vision() {
         </aside>
         
       </div>
-      <aside ref={(el) => (skewref.current[9] = el)} style={{width:"100%"}}>
+      <aside style={{width:"100%"}}>
           <h2>Join Us in Shaping the Future</h2>
           <ul>
             <li>At Auto Intellect, we are not just bridging the gap between education and industry; we are redefining it.</li>
