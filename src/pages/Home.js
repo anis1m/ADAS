@@ -16,9 +16,9 @@ function Home() {
     <>
       <Navbar />
       <Hero />
-      <Vision vh={visionheight} hv={setvisionheight}/>
-      <OurBlogs bh={blogsheight} hb={setblogsheight} />
-      <OurCourses />
+      <Vision  hv={setvisionheight}/>
+      <OurBlogs  hb={setblogsheight} vh={visionheight} />
+      <OurCourses bh={blogsheight} vh={visionheight}/>
       <LocateUs />
       <Footer />
     </>
