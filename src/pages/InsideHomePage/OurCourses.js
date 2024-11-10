@@ -26,7 +26,7 @@ function OurCourses({ bh, vh }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= bh + vh + 700) {
+      if (window.scrollY >= bh + vh + 900) {
         if (coursesref.current) {
           coursesref.current.style.transform = "translateX(0px)";
           coursesref.current.style.transition = "transform 2s ease";
