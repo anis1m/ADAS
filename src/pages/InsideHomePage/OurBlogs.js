@@ -75,7 +75,7 @@ function OurBlogs({ hb, vh }) {
             <h2 style={{ margin: "5rem auto" }}>No Blogs</h2>
           )}
         </div>
-        <button id="seemorecourses" onClick={() => nav("/courses")}>
+        <button id="seemorecourses" onClick={() => nav("/blogs")}>
           See All Blogs
         </button>
       </section>
