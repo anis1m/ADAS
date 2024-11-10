@@ -22,7 +22,7 @@ function Courses() {
   return (
     <>
       <Navbar />
-      <section className="our-courses">
+      <section className="our-courses" style={{ transform: "none" }}>
         <h1>Our Courses</h1>
         <div>
           {courses.map((course) => (

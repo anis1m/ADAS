@@ -29,7 +29,7 @@ function AllBlogs() {
   return (
     <>
       <Navbar />
-      <section className="our-blogs">
+      <section className="our-blogs" style={{ transform: "none" }}>
         <mark>
           <i class="fa-solid fa-blog"></i>
           <h1>All Blogs</h1>

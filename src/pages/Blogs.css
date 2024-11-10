@@ -35,6 +35,36 @@
   font-weight: 700;
 }
 
+#gotonextblog {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+#gotonextblog:hover,
+#gotopreviousblog:hover {
+  background-color: whitesmoke;
+}
+
+#gotonextblog i,
+#gotopreviousblog i {
+  font-size: 4rem;
+}
+
+#gotopreviousblog {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
 @media (max-width: 480px) {
   .blogs {
     width: 95%;
