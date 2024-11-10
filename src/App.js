@@ -7,6 +7,7 @@ import Enquiry from "./pages/Enquiry";
 import AboutUs from "./pages/AboutUs";
 
 function App() {
+  console.log("Hello");
   return (
     <>
       <Routes>
