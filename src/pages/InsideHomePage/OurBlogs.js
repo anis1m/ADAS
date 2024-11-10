@@ -21,7 +21,7 @@ function OurBlogs({ hb, vh }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= vh + 500) {
+      if (window.scrollY >= vh + 600) {
         if (blogref.current) {
           blogref.current.style.transform = "translateX(0px)";
           blogref.current.style.transition = "transform 2s ease";
