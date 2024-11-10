@@ -10,10 +10,10 @@ function AboutUs() {
         <div>
           <h1>Welcome to Auto Intellect</h1>
           <p>
-            At Auto Intellect, we empower professionals to excel in the rapidly evolving
-            corporate landscape. Our cutting-edge training programs are designed
-            to equip individuals with the knowledge, skills, and expertise
-            needed to thrive in today's competitive environment.
+            At Auto Intellect, we empower professionals to excel in the rapidly
+            evolving corporate landscape. Our cutting-edge training programs are
+            designed to equip individuals with the knowledge, skills, and
+            expertise needed to thrive in today's competitive environment.
           </p>
           <h2>Our Expertise</h2>
           <p>
@@ -51,8 +51,8 @@ function AboutUs() {
           </ul>
           <h2>Get in Touch</h2>
           <p>
-            Contact us to discover how Auto Intellect can help you
-            achieve your professional goals.
+            Contact us to discover how Auto Intellect can help you achieve your
+            professional goals.
           </p>
           <ul className="contactUsinAboutUs">
             <li>

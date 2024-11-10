@@ -1,7 +1,7 @@
 .vision {
   display: flex;
   width: 70%;
-  height:fit-content;
+  height: fit-content;
   margin: 3rem auto;
   flex-direction: column;
   align-items: center;
@@ -22,12 +22,12 @@
   margin: 2rem 0;
 }
 
-.vision h2{
-  text-align:center;
+.vision h2 {
+  text-align: center;
 }
 
 .vision div aside {
-  border: 2px solid gray;
+  border: 2px solid darkblue;
   border-radius: 1rem;
   padding: 2rem;
   width: 100%;
@@ -45,7 +45,7 @@
 }
 
 .vision div aside:hover {
-  background-color: gray;
+  background-color: darkblue;
   color: white;
 }
 
@@ -53,12 +53,12 @@
   .vision {
     width: 90%;
     transform: none;
-    margin:1rem auto;
+    margin: 1rem auto;
   }
 
   .vision div {
     grid-template-columns: 1fr;
-    margin:1rem 0;
+    margin: 1rem 0;
   }
 
   .vision div aside {

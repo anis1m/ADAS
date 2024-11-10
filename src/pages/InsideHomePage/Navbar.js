@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 function Navbar() {
   const nav = useNavigate();
   const menuref = useRef();
+
   return (
     <>
       <nav className="navbar">
@@ -20,12 +21,12 @@ function Navbar() {
           }}
         />
         <aside ref={menuref}>
-          <h3>Home</h3>
-          <h3>Our Courses</h3>
+          <h3 onClick={() => nav("/")}>Home</h3>
+          <h3 onClick={() => nav("/courses")}>Our Courses</h3>
           <h3>Team</h3>
           <h3>Testimonial</h3>
           <h3 onClick={() => nav("/about")}>About Us</h3>
-          <h3>Blogs</h3>
+          <h3 onClick={() => nav("/blogs")}>Blogs</h3>
           <h3>Contact Us</h3>
           <h3 onClick={() => nav("/enquiry")}>Enquiry</h3>
           <i class="fa-solid fa-magnifying-glass"></i>

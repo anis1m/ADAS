@@ -5,9 +5,10 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Enquiry from "./pages/Enquiry";
 import AboutUs from "./pages/AboutUs";
+import Courses from "./pages/Courses";
+import AllBlogs from "./pages/AllBlogs";
 
 function App() {
-  console.log("Hello");
   return (
     <>
       <Routes>
@@ -15,6 +16,8 @@ function App() {
         <Route path="/blog/:id" element={<Blogs />} />
         <Route path="/enquiry" element={<Enquiry />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/blogs" element={<AllBlogs />} />
       </Routes>
     </>
   );

@@ -21,9 +21,9 @@ function Footer() {
         </aside>
         <aside>
           <h1>Quick Links</h1>
-          <a href="">Courses</a>
-          <a href="">About Us</a>
-          <a href="">Our Blog</a>
+          <a href="/courses">Courses</a>
+          <a href="/about">About Us</a>
+          <a href="/blogs">Our Blogs</a>
           <a href="">Team</a>
           <a href="">Testimonials</a>
           <a href="">Contact</a>

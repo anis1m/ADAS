@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+  <course id="1">
+
+    <h2>Weekend courses</h2>
+    <p>(for students)</p>
+    <blockquote>
+      <h4> &#8377; 9999 </h4>
+      <figure>
+        <img src="/images/price.png" />
+        <h3>60% off</h3>
+      </figure>
+    </blockquote>
+    <h1>&#8377; 3999 </h1>
+    <button>Proceed to Checkout</button>
+    <ul>
+      <li>Vehicle systems: 4 weekends X 4 hours (Saturday + Sunday) </li>
+      <li>
+        Vehicle Dynamics 2 weekends X 4 hours (Saturday + Sunday)
+      </li>
+      <li>
+        Intro. to FuSa and CS (4 hrs.) this should eventually lead to detailed ISO 26262 sessions
+      </li>
+      <li>Introduction to ASPICE (2 hours)</li>
+    </ul>
+  </course>
+  <course id="2">
+    <h2>Weekend course </h2>
+    <p>(for corporates)</p>
+    <blockquote>
+      <h4>&#8377; 9999 </h4>
+      <figure>
+        <img src="/images/price.png" />
+        <h3>50% off</h3>
+      </figure>
+    </blockquote>
+    <h1>&#8377; 4999 </h1>
+    <button>Proceed to Checkout</button>
+    <ul>
+      <li>ISO 26262 </li>
+      <li>
+        FuSa Overview/ Need for FuSa/ coverage and basics of CS (3 + hrs.)
+      </li>
+      <li>
+        Part 2 (4 hours)
+      </li>
+      <li>Part 3 (4 hours including HARA workshop)</li>
+      <li>Part 4 (4 hours)</li>
+      <li>Part 5 and 6 (4 hours)</li>
+      <li>Part 7, 8, 10 and 11 (4 hours)</li>
+      <li>Part 9 and Part 12 (4 hours)</li>
+    </ul>
+  </course>
+</courses>

@@ -36,7 +36,7 @@ function Blogs() {
           dangerouslySetInnerHTML={{ __html: blog.innerHTML }}
         ></section>
       ) : (
-        <h2>Nothing here</h2>
+        <h2 style={{ margin: "5rem 40%" }}>Nothing here</h2>
       )}
     </>
   );
