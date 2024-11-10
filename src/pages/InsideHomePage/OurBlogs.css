@@ -4,6 +4,7 @@
   margin: 2rem auto;
   overflow: hidden;
   text-align: center;
+  transform: translateX(1500px);
 }
 
 .our-blogs mark {
@@ -70,13 +71,10 @@
 @media (max-width: 480px) {
   .our-blogs {
     width: 90%;
+    transform: none;
   }
   .our-blogs div {
     grid-template-columns: 1fr;
     margin: 1rem 0;
-  }
-
-  .our-blogs div aside {
-    transform: none;
   }
 }

@@ -4,9 +4,13 @@ import { useNavigate } from "react-router-dom";
 
 function OurBlogs({ hb, vh }) {
   const nav = useNavigate();
-  const blogref = useRef([]);
+  const blogref = useRef();
   const [blogsdata, setblogsdata] = useState([]);
   const bh = useRef();
+  const combinedref = (el) => {
+    bh.current = el;
+    blogref.current = el;
+  };
 
   useEffect(() => {
     if (bh.current) {
@@ -17,11 +21,11 @@ function OurBlogs({ hb, vh }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= vh + 900) {
-        /*if (visionRef.current) {
-          visionRef.current.style.transform = "translateX(0px)";
-          visionRef.current.style.transition = "transform 1s ease";
-        }*/
+      if (window.scrollY >= vh + 400) {
+        if (blogref.current) {
+          blogref.current.style.transform = "translateX(0px)";
+          blogref.current.style.transition = "transform 2s ease";
+        }
       }
     };
 
@@ -29,7 +33,7 @@ function OurBlogs({ hb, vh }) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [vh]);
 
   useEffect(() => {
     fetch("/data.xml")
@@ -52,7 +56,7 @@ function OurBlogs({ hb, vh }) {
   }, []);
   return (
     <>
-      <section class="our-blogs" ref={bh}>
+      <section class="our-blogs" ref={combinedref}>
         <mark>
           <i class="fa-solid fa-blog"></i>
           <h1>Our Blogs</h1>
@@ -60,7 +64,7 @@ function OurBlogs({ hb, vh }) {
         <div>
           {blogsdata.length > 0 ? (
             blogsdata.slice(0, 3).map((blog, idx) => (
-              <aside ref={(el) => (blogref.current[idx] = el)}>
+              <aside>
                 <figure dangerouslySetInnerHTML={{ __html: blog }}></figure>
                 <button
                   onClick={() => {

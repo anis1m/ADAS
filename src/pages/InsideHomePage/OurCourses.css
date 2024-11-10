@@ -1,7 +1,9 @@
 .our-courses {
   width: 100%;
+  height: fit-content;
   text-align: center;
   overflow: hidden;
+  transform: translateX(-1500px);
 }
 
 .our-courses h1 {
@@ -95,12 +97,11 @@
 }
 
 @media (max-width: 480px) {
+  .our-courses {
+    transform: none;
+  }
   .our-courses div {
     width: 90%;
     grid-template-columns: 1fr;
-  }
-
-  .our-courses div aside {
-    transform: none;
   }
 }

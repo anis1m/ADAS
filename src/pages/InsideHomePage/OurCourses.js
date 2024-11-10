@@ -4,7 +4,7 @@ import tagimg from "../../images/pngtree-blue-promotion-label-price-tag-png-imag
 import { useNavigate } from "react-router-dom";
 
 function OurCourses({ bh, vh }) {
-  const coursesref = useRef([]);
+  const coursesref = useRef();
   const [courses, setcourses] = useState([]);
   const nav = useNavigate();
 
@@ -23,25 +23,22 @@ function OurCourses({ bh, vh }) {
         console.log(err);
       });
   }, []);
-  /*
+
   useEffect(() => {
     const handleScroll = () => {
-      console.log(bh, vh, window.scrollY);
-      if (window.scrollY >= bh + vh + 300) {
+      if (window.scrollY >= bh + vh + 400) {
         if (coursesref.current) {
-          for (let i = 0; i < coursesref.current.length; i++) {
-            coursesref.current[i].style.transform = "skew(0deg)";
-            coursesref.current[i].style.transition = "transform 2s ease";
-          }
+          coursesref.current.style.transform = "translateX(0px)";
+          coursesref.current.style.transition = "transform 2s ease";
         }
       }
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);*/
+  }, [bh, vh]);
   return (
     <>
-      <section className="our-courses">
+      <section className="our-courses" ref={coursesref}>
         <h1>Our Courses</h1>
         <div>
           {courses.length > 0 ? (
