@@ -11,6 +11,7 @@
 .blogs ul li {
   list-style-position: inside;
 }
+
 .blogs h3 {
   margin-top: 1rem;
 }
@@ -29,6 +30,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  margin-left: 20px;
 }
 
 .blogs ol li ul li {
@@ -77,5 +79,16 @@
   .blogs h1 {
     font-size: 1.2rem;
     font-weight: 600;
+  }
+
+  #gotopreviousblog,
+  #gotonextblog {
+    position: unset;
+    width: 50%;
+  }
+
+  #gotopreviousblog i,
+  #gotonextblog i {
+    font-size: 2rem;
   }
 }
