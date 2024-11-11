@@ -8,7 +8,7 @@ function AllBlogs() {
   const blogref = useRef([]);
   const [blogsdata, setblogsdata] = useState([]);
   useEffect(() => {
-    fetch("/data.xml")
+    fetch("/blogs.xml")
       .then((res) => res.text())
       .then((txt) => {
         const parser = new DOMParser();

@@ -9,7 +9,7 @@ function Blogs() {
   const [blogslength, setblogslength] = useState(0);
 
   useEffect(() => {
-    fetch("/data.xml")
+    fetch("/blogs.xml")
       .then((res) => res.text())
       .then((txt) => {
         const parser = new DOMParser();

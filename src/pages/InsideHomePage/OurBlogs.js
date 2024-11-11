@@ -36,7 +36,7 @@ function OurBlogs({ hb, vh }) {
   }, [vh]);
 
   useEffect(() => {
-    fetch("/data.xml")
+    fetch("/blogs.xml")
       .then((res) => res.text())
       .then((txt) => {
         const parser = new DOMParser();

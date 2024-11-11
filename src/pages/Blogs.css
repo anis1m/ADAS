@@ -7,6 +7,10 @@
   gap: 0.5rem;
 }
 
+.blogs ol li,
+.blogs ul li {
+  list-style-position: inside;
+}
 .blogs h3 {
   margin-top: 1rem;
 }

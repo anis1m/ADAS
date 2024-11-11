@@ -185,16 +185,9 @@ function Vision({ hv }) {
             </ul>
           </aside>
         </div>
-        <aside style={{ width: "100%", margin: "1rem 0", padding: "0 1rem" }}>
-          <h2 style={{ fontSize: "2rem" }}>Join Us in Shaping the Future</h2>
-          <ul
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "1rem",
-              marginTop: "1rem",
-            }}
-          >
+        <aside className="joinusshapingfuture">
+          <h2>Join Us in Shaping the Future</h2>
+          <ul>
             <li>
               At Auto Intellect, we are not just bridging the gap between
               education and industry; we are redefining it.
