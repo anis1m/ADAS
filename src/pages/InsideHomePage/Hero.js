@@ -11,12 +11,16 @@ function Hero() {
       <blockquote>
         <h2>Auto Intellect</h2>
         <h1>
-          Our mission is to implement Functional Safety in Advanced Driver
-          Assistance Systems (ADAS)
+          Our mission is to empower professionals and beginners with
+          cutting-edge expertise and practical application oriented knowledge in
+          automotive functional safety and cybersecurity, fostering innovation
+          and resilience in today's fast-paced mobility industry. We aim to
+          groom a future-ready workforce committed to excellence and global
+          safety standards.
         </h1>
         <h2>
-          Join us on this journey of learning, growth and limitless
-          possibilities in world of automobiles
+          Empowering Professionals and Beginners with expertise in Automotive
+          Functional Safety and Cyber Security
         </h2>
         <button>Our Courses</button>
       </blockquote>
